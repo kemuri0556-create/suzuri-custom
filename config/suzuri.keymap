@@ -17,7 +17,7 @@
         default_layer {
             bindings = <
                 &mkp LCLK    &mkp RCLK
-                &mo LAYER1   &mo LAYER2
+                &lt_mkp LAYER1 MCLK   &mo LAYER2
             >;
         };
 
