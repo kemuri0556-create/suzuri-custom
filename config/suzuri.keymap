@@ -11,9 +11,11 @@
 #define DEFAULT 0
 #define LAYER1  1
 #define LAYER2  2
+#define LAYER2  3
 
 // カスタムビヘイビアの定義
 / {
+        // レイヤシフトとマウスキープレスを共存させる。単押しするとマウスキープレス、長押しでレイヤシフト。
         lt_mkp: lt_mkp {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_MKP";
@@ -42,7 +44,7 @@
         default_layer {
             bindings = <
                 &mkp LCLK    &mkp RCLK
-                &lt_mkp LAYER1 LCLK   &mkp RCLK
+                &lt_mkp LAYER1 LCLK   &lt_mkp LAYER2 RCLK
             >;
         };
 
@@ -64,7 +66,7 @@
 
 // トラックボールの設定(カスタマイズしたい場合は以下をコメントアウトして編集してください)
 // #include <input/processors.dtsi>  
-// #include <dt-bindings/zmk/input_transform.h>  
+#include <dt-bindings/zmk/input_transform.h>  
 
 / {
     trackball_listener {
