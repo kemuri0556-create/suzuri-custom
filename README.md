@@ -1,3 +1,5 @@
+※以下、公式リポジトリテンプレートの引用です。リポジトリテンプレートの原型はこちら→https://github.com/snize/zmk-suzuri-config-template
+
 このリポジトリはキーボードモジュール [SUZURI](https://github.com/snize/zmk-keyboard-suzuri) のコンフィグ用リポジトリのテンプレートです。このページ右上の「Use this template」ボタンをクリックし、「Create a new repository」を選択すると、新しいリポジトリを作成できます。
 
 リポジトリをフォークする方法とは異なり、元のリポジトリの内容を引き継ぎつつ必要な設定のみ上書きできます。
