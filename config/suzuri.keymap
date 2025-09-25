@@ -1,4 +1,4 @@
-#include <input/processors.dtsi>
+#include <input/processors.dtsi>https://github.com/kemuri0556-create/suzuri-custom/blob/main/config/suzuri.keymap
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -12,10 +12,6 @@
 #define LAYER1  1
 #define LAYER2  2
 #define LAYER2  3
-
-CONFIG_PMW3610=y
-CONFIG_PMW3610_CPI=300
-CONFIG_PMW3610_CPI_DIVIDOR=1
 
 // カスタムビヘイビアの定義
 / {
