@@ -13,6 +13,10 @@
 #define LAYER2  2
 #define LAYER2  3
 
+CONFIG_PMW3610=y
+CONFIG_PMW3610_CPI=300
+CONFIG_PMW3610_CPI_DIVIDOR=1
+
 // カスタムビヘイビアの定義
 / {
         // レイヤシフトとマウスキープレスを共存させる。単押しするとマウスキープレス、長押しでレイヤシフト。
