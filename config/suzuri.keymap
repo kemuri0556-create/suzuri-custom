@@ -76,7 +76,7 @@
         device = <&trackball>;
         input-processors = 
             //<&zip_x_scaler 10 9>, // X軸（横方向）の移動量を1.125倍に調整。倍率を大きくすると、Y軸（縦方向）の移動時に横ブレを感じやすくなります。(元々は9 8だった)
-            <&zip_x_scaler 18 25>, // カーソル早すぎて死んだので調整。X軸だけちょっと大きめに。
+            <&zip_x_scaler 7 10>, // カーソル早すぎて死んだので調整。X軸だけちょっと大きめに。
             <&zip_y_scaler 3 5>, // カーソル早すぎて死んだので調整。
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>; // X軸反転
 
